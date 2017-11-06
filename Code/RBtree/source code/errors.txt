@@ -1,0 +1,65 @@
+ini@linux-mv2b:~/cisco/material/r-btrees/source code> vi q
+bash: syntax error near unexpected token `newline'
+srini@linux-mv2b:~/cisco/material/r-btrees/source code> ./R-B_TREES <data.txt 
+To Balance:node_ptr -> value=0           
+PARENT_PTR-> value=1           
+GRAND_PARENT_PTR=0x1946010   
+GRAND_PARENT_PTR -> value=4           
+LL Black
+BLACK
+LL XY_BLACK_correction for:node_ptr -> value=0           
+HERE
+ XY_BLACK_correction completed:node_ptr -> value=0           
+Completed Balance:node_ptr -> value=0           
+To Balance:node_ptr -> value=2           
+PARENT_PTR-> value=4           
+GRAND_PARENT_PTR=0x1946040   
+GRAND_PARENT_PTR -> value=1           
+RL Red
+RED
+RL XY_RED_correction for:node_ptr -> value=2           
+RR XY_RED_correction for:node_ptr -> value=2           
+ XY_RED_correction completed:node_ptr -> value=2           
+Completed Balance:node_ptr -> value=2           
+To Balance:node_ptr -> value=3           
+PARENT_PTR-> value=2           
+GRAND_PARENT_PTR=0x1946010   
+GRAND_PARENT_PTR -> value=4           
+LR Black
+BLACK
+LR XY_BLACK_correction for:node_ptr -> value=3           
+ XY_BLACK_correction completed:node_ptr -> value=3           
+Completed Balance:node_ptr -> value=3           
+To Balance:node_ptr -> value=8           
+PARENT_PTR-> value=4           
+GRAND_PARENT_PTR=0x1946040   
+GRAND_PARENT_PTR -> value=1           
+RR Black
+BLACK
+RR XY_BLACK_correction for:node_ptr -> value=8           
+ XY_BLACK_correction completed:node_ptr -> value=8           
+Completed Balance:node_ptr -> value=8           
+To Balance:node_ptr -> value=9           
+PARENT_PTR-> value=8           
+GRAND_PARENT_PTR=0x1946010   
+GRAND_PARENT_PTR -> value=4           
+RR Red
+RED
+RR XY_RED_correction for:node_ptr -> value=9           
+ XY_RED_correction completed:node_ptr -> value=9           
+Completed Balance:node_ptr -> value=9           
+To Balance:node_ptr -> value=7           
+PARENT_PTR-> value=6           
+GRAND_PARENT_PTR=0x1946100   
+GRAND_PARENT_PTR -> value=8           
+LR Red
+RED
+LR XY_RED_correction for:node_ptr -> value=7           
+ XY_RED_correction completed:node_ptr -> value=7           
+To Balance:node_ptr -> value=8           
+PARENT_PTR-> value=4           
+GRAND_PARENT_PTR=(nil)       
+Segmentation fault
+srini@linux-mv2b:~/cisco/material/r-btrees/source code> 
+
+
